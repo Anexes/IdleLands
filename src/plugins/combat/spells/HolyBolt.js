@@ -5,9 +5,9 @@ import { Spell, SpellType } from '../spell';
 export class HolyBolt extends Spell {
   static element = SpellType.HOLY;
   static tiers = [
-    { name: 'holy bolt',      spellPower: 3, weight: 40, cost: 10,   level: 1,  profession: 'Cleric' },
-    { name: 'divine bolt',    spellPower: 5, weight: 40, cost: 300,  level: 25, profession: 'Cleric' },
-    { name: 'celestial bolt', spellPower: 7, weight: 40, cost: 1800, level: 55, profession: 'Cleric' }
+    { name: 'holy bolt',      spellPower: 1, weight: 40, cost: 10,   level: 1,  profession: 'Cleric' },
+    { name: 'divine bolt',    spellPower: 2, weight: 40, cost: 300,  level: 25, profession: 'Cleric' },
+    { name: 'celestial bolt', spellPower: 3, weight: 40, cost: 1800, level: 55, profession: 'Cleric' }
   ];
 
   static shouldCast() {

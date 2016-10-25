@@ -8,7 +8,7 @@ import { Tranquility as TranquilityEffect } from '../effects/Tranquility';
 export class Tranquility extends Spell {
   static element = SpellType.BUFF;
   static tiers = [
-    { name: 'tranquility', spellPower: 1000000, weight: 25, cost: 10000, profession: 'Cleric', level: 75 }
+    { name: 'tranquility', spellPower: 1000000, weight: 15, cost: 10000, profession: 'Cleric', level: 75 }
   ];
 
   static shouldCast(caster) {

@@ -20,7 +20,7 @@ export class Cure extends Spell {
 
   calcDamage() {
     const min = this.caster.liveStats.int / 4;
-    const max = this.caster.liveStats.int;
+    const max = this.caster.liveStats.int / 2;
     return -this.minMax(min, max) * this.spellPower;
   }
 
